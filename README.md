@@ -1,3 +1,10 @@
+# IMPORTANT:
+
+When developing with Gstreamer, configure this project with the following:
+
+```./configure --libdir /usr/lib/x86_64-linux-gnu/ GST_TOOLS_DIR=~/Projects/gstreamer/builddir/subprojects/gstreamer/tools GST_PLUGINS_DIR=$GST_PLUGIN_PATH GSTPB_PLUGINS_DIR=$GST_PLUGIN_PATH```
+
+
 # GstInterpipe 1.0
 GstInterpipe is a Gstreamer plug-in that allows communication between
 two independent pipelines. The plug-in consists of two elements:
