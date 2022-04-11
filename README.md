@@ -1,6 +1,6 @@
 # IMPORTANT:
 
-When developing with Gstreamer, configure this project with the following:
+When developing with Gstreamer and the environment is activated with `python3 gst-env.py`, configure this project with the following:
 
 ```./configure --libdir /usr/lib/x86_64-linux-gnu/ GST_TOOLS_DIR=~/Projects/gstreamer/builddir/subprojects/gstreamer/tools GST_PLUGINS_DIR=$GST_PLUGIN_PATH GSTPB_PLUGINS_DIR=$GST_PLUGIN_PATH```
 
